@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
+import { StyleSheet, Text, View, Button, TextInput, TouchableOpacity } from 'react-native';
 import Back from "../assets/img/Group 21";
 import Group55 from "../assets/img/Group 55.svg";
 
