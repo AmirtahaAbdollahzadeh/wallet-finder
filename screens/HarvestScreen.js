@@ -6,8 +6,8 @@ import {
   TextInput,
   TouchableOpacity,
 } from 'react-native';
-import Back from '../assets/img/Group 21';
-import Group55 from '../assets/img/Group 55.svg';
+import Back from '../assets/img/Back.svg';
+import Group55 from '../assets/img/CoinCountBoxBig.svg';
 
 export default function HarvestScreen({navigation}) {
   return (
@@ -28,8 +28,7 @@ export default function HarvestScreen({navigation}) {
               color: '#A40101',
               top: -15,
               position: 'absolute',
-            }}
-            onPress={() => navigation.navigate('Harvest')}>
+            }}>
             52366
           </Text>
         </View>
@@ -37,7 +36,7 @@ export default function HarvestScreen({navigation}) {
       <View style={{padding: 30}}>
         <View
           style={{
-              marginBottom: 24,
+            marginBottom: 24,
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',

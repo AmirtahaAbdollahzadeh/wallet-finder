@@ -7,14 +7,12 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
-import Back from '../assets/img/Group 21';
+import Back from '../assets/img/Back.svg';
 import Cart from '../assets/img/Cart.svg';
-import Group55 from '../assets/img/Group 55';
-import Group81 from '../assets/img/Group 81';
+import CoinCountBoxBig from '../assets/img/CoinCountBoxBig.svg';
 import Buy1 from '../assets/img/buy1.svg';
 import Buy5 from '../assets/img/buy5.svg';
 import X2 from '../assets/img/X2.svg';
-import Zap from '../assets/img/Zap.svg';
 
 import {StrokeText} from '@charmy.tech/react-native-stroke-text';
 import {cloneElement} from 'react';
@@ -92,7 +90,7 @@ export default function BuyScreen({navigation}) {
           <Cart />
         </View>
         <View style={{position: 'relative', alignItems: 'center'}}>
-          <Group55 />
+          <CoinCountBoxBig />
           <Text
             style={{
               fontSize: 32,

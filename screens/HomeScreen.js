@@ -6,15 +6,10 @@ import {
   Image,
   TouchableOpacity,
 } from 'react-native';
-import Logo from '../assets/img/Group 7';
-import Group55 from '../assets/img/Group 55';
-import Group12 from '../assets/img/Group 12';
-import Group25 from '../assets/img/Group 25';
-import Group1 from '../assets/img/Group 1';
-import Wallet5 from '../assets/img/5 wallet';
-import Wallet15 from '../assets/img/15 wallet';
-import Group13 from '../assets/img/Group 13';
-import Group56 from '../assets/img/Group 56';
+import Logo from '../assets/img/Logo.svg';
+import CoinCountBoxBig from '../assets/img/CoinCountBoxBig.svg';
+import ZapCounter from '../assets/img/ZapCounter.svg';
+import ProgressBar from '../assets/img/ProgressBar.svg';
 import Cart from '../assets/img/Cart.svg';
 import {StrokeText} from '@charmy.tech/react-native-stroke-text';
 
@@ -58,7 +53,7 @@ export default function HomeScreen({navigation}) {
             }}>
             <TouchableOpacity onPress={() => navigation.navigate('Harvest')}>
               <View style={{position: 'relative', alignItems: 'center'}}>
-                <Group55 />
+                <CoinCountBoxBig />
                 <Text
                   style={{
                     fontSize: 32,
@@ -74,7 +69,7 @@ export default function HomeScreen({navigation}) {
             </TouchableOpacity>
             <View style={{position: 'absolute', right: 30}}>
               <View style={{position: 'relative', alignItems: 'center'}}>
-                <Group12 />
+                <ZapCounter />
                 <View
                   style={{
                     position: 'absolute',
@@ -112,7 +107,7 @@ export default function HomeScreen({navigation}) {
               marginTop: 32,
               marginBottom: 40,
             }}>
-            <Group25 />
+            <ProgressBar />
           </View>
           <TouchableOpacity
             style={{

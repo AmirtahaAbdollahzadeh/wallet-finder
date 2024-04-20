@@ -7,7 +7,7 @@ import {
   TextInput,
   TouchableOpacity,
 } from 'react-native';
-import Back from '../assets/img/Group 21';
+import Back from '../assets/img/Back.svg';
 
 export default function FriendScreen({navigation}) {
   return (
