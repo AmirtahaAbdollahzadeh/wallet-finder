@@ -5,8 +5,7 @@ import Gold from "../assets/img/Group 19";
 import Kise from "../assets/img/Group 27";
 import DoGold from "../assets/img/Group 31";
 import ThrSearch from "../assets/img/Group 15";
-import FivKise from "../assets/img/Group 70";
-
+import FivKise from '../assets/img/X2.svg';
 
 export default function PlayScreen( {navigation} ) {
     return (
